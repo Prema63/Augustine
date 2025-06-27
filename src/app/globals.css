@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+
+body {
+ font-family: Sarabun, sans-serif;
+    font-size: 16px;
+    line-height: 1.87em;
+    font-weight: 300;
+    color: #505050;
+    background-color: #fff;
+    overflow-x: hidden;
+    -webkit-font-smoothing: antialiased;
+}
