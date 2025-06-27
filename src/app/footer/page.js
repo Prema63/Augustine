@@ -6,13 +6,13 @@ import Image from 'next/image';
 const Footer = () => {
   return (
     <div className="bg-gray-100 text-gray-700">
-      {/* Main Footer Content */}
+      {/* Main Footer */}
       <div className="max-w-7xl mx-auto px-6 py-16 grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-10">
         
-        {/* Logo Section */}
+        {/* Logo  */}
         <div className="flex flex-col items-center md:items-start">
           <Image
-            src="/logo/logo.png" // Make sure this is in /public/logo/logo.png
+            src="/logo/logo.png" 
             alt="Logo"
             width={120}
             height={48}
@@ -24,7 +24,7 @@ const Footer = () => {
           </p>
         </div>
 
-        {/* Navigation Menu */}
+        {/* N Menu */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h4 className="text-lg font-semibold mb-2">Quick Links</h4>
           {["Home", "About Us", "Activities", "Contact Us", "Cart", "Checkout"].map((item, idx) => (
@@ -38,7 +38,7 @@ const Footer = () => {
           ))}
         </div>
 
-        {/* Contact Information */}
+        {/* Contact  */}
         <div className="flex flex-col items-center md:items-start space-y-2">
           <h4 className="text-lg font-semibold mb-2">Contact</h4>
           <p className="text-sm">Turgut Ozal Millet Cd.</p>
@@ -52,7 +52,7 @@ const Footer = () => {
           </a>
         </div>
 
-        {/* Email & Social */}
+        {/* Email */}
         <div className="flex flex-col items-center md:items-start space-y-3">
           <h4 className="text-lg font-semibold mb-2">Get in Touch</h4>
           <a href="mailto:augustine@example.com" className="text-sm hover:text-[#0b6354] transition">
@@ -62,7 +62,7 @@ const Footer = () => {
             augustine@qodeinteractive.com
           </a>
 
-          {/* Social Icons */}
+          {/*  Icons */}
           <div className="flex space-x-4 mt-4">
             {[
               { icon: 'facebook', href: '#' },
@@ -81,7 +81,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Bottom Footer */}
+      {/* Bottom  */}
       <div className="border-t border-gray-300 py-4 px-6">
         <div className="max-w-7xl mx-auto flex flex-col md:flex-row justify-between items-center text-sm text-gray-500 space-y-2 md:space-y-0">
           <div>Terms of Use / Privacy Policy</div>

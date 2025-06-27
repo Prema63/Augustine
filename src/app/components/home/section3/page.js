@@ -52,7 +52,7 @@ const Activities = () => {
 
     return (
         <section className="w-full py-16 lg:py-24 bg-gradient-to-br from-gray-50 via-white to-gray-100 relative overflow-hidden">
-            {/* Background decoration */}
+            {/* Background */}
             <div className="absolute inset-0 opacity-30">
                 <div className="absolute top-20 left-10 w-72 h-72 bg-gradient-to-br from-blue-200 to-purple-200 rounded-full blur-3xl"></div>
                 <div className="absolute bottom-20 right-10 w-96 h-96 bg-gradient-to-br from-orange-200 to-pink-200 rounded-full blur-3xl"></div>
@@ -106,8 +106,6 @@ const Activities = () => {
                                         </div>
                                     </div>
 
-
-                                    {/* Text */}
                                     <div className="space-y-3 text-center sm:text-left">
                                         <h6
                                             className={`text-xl font-bold transition-colors duration-300 ${hoveredIndex === index
@@ -127,7 +125,6 @@ const Activities = () => {
                                         </p>
                                     </div>
 
-                                    {/* Learn more */}
                                     {selectedActivity === index && (
                                         <div className="mt-4 pt-4 border-t border-gray-200 animate-fadeIn">
                                             <button className="text-sm font-medium text-blue-600 hover:text-blue-700 transition-colors duration-200 flex items-center gap-2">
@@ -150,7 +147,6 @@ const Activities = () => {
                                     )}
                                 </div>
 
-                                {/* Shine effect */}
                                 <div className="absolute inset-0 rounded-2xl overflow-hidden">
                                     <div className="absolute -top-4 -left-4 w-8 h-8 bg-gradient-to-br from-white/40 to-transparent transform rotate-45 transition-all duration-500 ease-out opacity-0 group-hover:opacity-100 group-hover:scale-150"></div>
                                 </div>

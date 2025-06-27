@@ -15,7 +15,7 @@ export default function Section1() {
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-black/30 to-black/40" />
       </div>
 
-      {/* Content Overlay - Perfectly Centered */}
+      {/* Content*/}
       <div className="relative z-10 w-full max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center">
           <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl xl:text-7xl font-light text-white tracking-wide leading-tight">

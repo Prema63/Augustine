@@ -46,10 +46,10 @@ const tripleRoom = () => {
     return (
         <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-4 sm:py-8 px-4">
             <div className="max-w-2xl">
-                {/* Main Card Container */}
+                {/* Main Card */}
                 <div className=" rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500">
 
-                    {/* Image Gallery Section - Top */}
+                    {/* Image Section*/}
                     <div
                         className="relative group w-full"
                         onMouseEnter={() => setIsHovered(true)}
@@ -65,7 +65,7 @@ const tripleRoom = () => {
                             {/* Overlay Gradient */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
 
-                            {/* Navigation Arrows */}
+                            {/* Arrows */}
                             <button
                                 onClick={prevImage}
                                 className="absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 
@@ -107,7 +107,7 @@ const tripleRoom = () => {
                         </div>
                     </div>
 
-                    {/* Room Details Section - Bottom */}
+                    {/* Room Section - Bottom */}
                     <div className="p-4 sm:p-5 md:p-6 lg:p-8 bg-gradient-to-br from-white to-gray-50/50">
                         <div className="space-y-4 sm:space-y-6">
 
@@ -163,7 +163,7 @@ const tripleRoom = () => {
                                 ))}
                             </div>
 
-                            {/* Action Button */}
+                            {/* Button */}
                             <div className="pt-4 sm:pt-6 flex justify-center sm:justify-start">
                                 <button
                                     onClick={handleClick}

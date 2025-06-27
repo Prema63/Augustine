@@ -60,7 +60,7 @@ const Section7 = () => {
       id="instagram-section"
       className="relative w-full py-20 lg:py-24 bg-gradient-to-br from-slate-50 via-white to-gray-50 overflow-hidden"
     >
-      {/* Background Patterns */}
+      {/* Background  */}
       <div className="absolute inset-0 opacity-5 pointer-events-none">
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_30%_40%,rgba(11,99,84,0.3),transparent_50%)]"></div>
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_70%_80%,rgba(11,99,84,0.2),transparent_50%)]"></div>

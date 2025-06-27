@@ -5,7 +5,7 @@ import React from 'react';
 const Discover = () => {
     return (
         <>
-            {/* Header Section: Date / Time / Weather */}
+            {/* Header Section */}
             <div className="flex flex-col lg:flex-row items-center justify-center gap-8 lg:gap-24 py-12 px-4">
                 {/* Date */}
                 <div className="flex flex-col items-center">
@@ -45,7 +45,7 @@ const Discover = () => {
                 </div>
             </div>
 
-            {/* Discovery Section Title */}
+            {/* Discovery Section */}
             <section className="w-full py-12 lg:py-16 bg-gradient-to-r from-gray-100 to-white">
                 <div className="max-w-screen-xl mx-auto px-4 lg:px-8">
                     <div className="w-full mb-8 lg:mb-12 relative">

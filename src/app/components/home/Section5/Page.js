@@ -63,7 +63,7 @@ const VideoHeroSection = () => {
           </div>
 
           <div className="flex flex-col lg:flex-row gap-12 lg:gap-16 items-center justify-center">
-            {/* Left Side - List */}
+            {/* Left Side */}
             <div className="w-full lg:w-1/2 space-y-6">
               {items.map((item, index) => (
                 <button
@@ -84,7 +84,7 @@ const VideoHeroSection = () => {
               ))}
             </div>
 
-            {/* Right Side - Image Display */}
+            {/* Right Side*/}
             <div className="w-full lg:w-1/2 relative h-[300px] sm:h-[400px] lg:h-[500px] overflow-hidden rounded-2xl shadow-2xl">
               {items.map((item, index) => (
                 <div
@@ -122,9 +122,8 @@ const VideoHeroSection = () => {
         </div>
       </div>
 
-      {/* Spa Moments Section */}
+      {/* Spa Section */}
       <section className="w-full max-w-6xl mx-auto py-16 px-4 md:px-6 grid grid-cols-1 md:grid-cols-3 gap-10 items-stretch">
-        {/* Image Column */}
         <div className="md:col-span-2 w-full h-[600px]">
           <img
             src="https://augustine.qodeinteractive.com/wp-content/uploads/2020/12/h1-img-20.jpg"
@@ -133,7 +132,6 @@ const VideoHeroSection = () => {
           />
         </div>
 
-        {/* Content Column */}
         <div className="space-y-4 flex flex-col pl-7 justify-between">
           <div className="space-y-8">
             <span className="block w-10 h-1 bg-green-700"></span>

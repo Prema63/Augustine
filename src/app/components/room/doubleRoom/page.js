@@ -46,10 +46,10 @@ const doubleRoom = () => {
     return (
     <div className="min-h-screen bg-gradient-to-br from-gray-50 to-gray-100 py-4 sm:py-8 px-4">
             <div className="max-w-2xl">
-                {/* Main Card Container */}
+                {/* Main Card  */}
                 <div className=" rounded-2xl shadow-2xl overflow-hidden hover:shadow-3xl transition-all duration-500">
 
-                    {/* Image Gallery Section - Top */}
+                    {/* Image Section */}
                     <div
                         className="relative group w-full"
                         onMouseEnter={() => setIsHovered(true)}
@@ -65,7 +65,7 @@ const doubleRoom = () => {
                             {/* Overlay Gradient */}
                             <div className="absolute inset-0 bg-gradient-to-t from-black/20 via-transparent to-transparent"></div>
 
-                            {/* Navigation Arrows */}
+                            {/* Arrows */}
                             <button
                                 onClick={prevImage}
                                 className="absolute left-3 sm:left-4 top-1/2 transform -translate-y-1/2 
@@ -90,7 +90,7 @@ const doubleRoom = () => {
                                 <ChevronRight className="w-4 h-4 sm:w-6 sm:h-6 text-white drop-shadow-lg" />
                             </button>
 
-                            {/* Image Indicators */}
+                            {/* Image  */}
                             <div className="absolute bottom-4 left-1/2 transform -translate-x-1/2 flex space-x-2">
                                 {images.map((_, index) => (
                                     <button
@@ -107,7 +107,7 @@ const doubleRoom = () => {
                         </div>
                     </div>
 
-                    {/* Room Details Section - Bottom */}
+                    {/* Room Section- Bottom */}
                     <div className="p-4 sm:p-5 md:p-6 lg:p-8 bg-gradient-to-br from-white to-gray-50/50">
                         <div className="space-y-4 sm:space-y-6">
 

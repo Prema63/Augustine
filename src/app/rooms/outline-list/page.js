@@ -1,5 +1,5 @@
-"use client"
-import React from 'react'
+"use client";
+import React from 'react';
 import Section1 from '../../components/room/section1/page';
 import SingleRoom from '../../components/room/singleRoom/page';
 import DoubleRoom from '../../components/room/doubleRoom/page';
@@ -11,22 +11,16 @@ const page = () => {
   return (
     <div>
       <Section1 />
-      
-      <div className="flex flex-col md:flex-row md:gap-6">
+
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6 px-4 sm:px-6 lg:px-12 my-10">
         <SingleRoom />
         <DoubleRoom />
-      </div>
-
-      <div className="flex flex-col md:flex-row md:gap-6">
         <TripleRoom />
         <QuadRoom />
-      </div>
-
-      <div>
         <QueenRoom />
       </div>
     </div>
-  )
-}
+  );
+};
 
 export default page;

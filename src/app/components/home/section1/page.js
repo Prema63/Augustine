@@ -2,11 +2,17 @@
 
 import React from 'react';
 import Link from 'next/link';
+import { useRouter } from 'next/navigation';
 
 const Section1 = () => {
+  const router = useRouter();
+
+  const handleClick = () => {
+    router.push('/rooms/outline-list');
+  };
   return (
     <>
-      {/* Fullscreen Image Hero Section */}
+      {/* Hero Section */}
       <section className="relative w-full h-[85vh] sm:h-[90vh] md:h-[100vh] overflow-hidden z-20">
         {/* Background Image */}
         <div
@@ -34,6 +40,7 @@ const Section1 = () => {
           </p>
 
           <button
+            onClick={handleClick}
             className="mt-6 px-6 sm:px-8 py-3 sm:py-4 bg-white text-gray-900 font-semibold text-sm sm:text-base lg:text-lg rounded hover:bg-[#0b6354] hover:text-white transition duration-300"
           >
             View All Apartments
@@ -46,22 +53,19 @@ const Section1 = () => {
         {/* Decorative Line */}
         <span className="block w-16 h-1 bg-gray-800 mx-auto mb-3"></span>
 
-        {/* Subtitle */}
         <p className="text-xs sm:text-sm text-gray-600 uppercase tracking-wide">
           This is Augustine
         </p>
 
-        {/* Title */}
         <h2 className="text-2xl sm:text-3xl md:text-4xl font-semibold leading-snug">
           A Luxurious Way to Meet <br /> the Capitals of Europe
         </h2>
 
-        {/* Paragraph */}
         <p className="text-sm sm:text-base text-gray-700 px-2 sm:px-6">
           All our hotels are equipped with premium suites and first-class entertainment areas. The comfort and the needs of our guests come before all else here. Visit one of our locations!
         </p>
 
-        {/* Call to Action Button */}
+        {/* Button */}
         <Link
           href="/rooms/outline-list"
           className="inline-block border border-gray-800 text-gray-800 px-6 sm:px-9 py-3 sm:py-5 text-sm sm:text-lg rounded hover:bg-[#0b6354] hover:text-white hover:border-[#0b6354] transition-colors duration-300"
