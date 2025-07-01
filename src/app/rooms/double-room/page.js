@@ -136,22 +136,22 @@ const HotelRoomPage = () => {
 
   const rooms = [
     {
-      name: "Twin Room",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img13-433x397.jpg",
+      name: "3 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/142/1725452752-Photo 31-08-24, 9 37 04 AM (2).jpg",
       price: "$59",
       capacity: "1-2 persons",
       size: "42m²",
     },
     {
-      name: "Studio Suite",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img06-433x397.jpg",
+      name: "2 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/148/1717499237-Photo 27-03-24, 6 17 42 PM (5).jpg",
       price: "$108",
       capacity: "1-4 persons",
       size: "54m²",
     },
     {
-      name: "Lux Suite",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img03-433x397.jpg",
+      name: "Classic Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/149/1735638563-8.jpeg",
       price: "$119",
       capacity: "1-4 persons",
       size: "68m²",
@@ -163,13 +163,13 @@ const HotelRoomPage = () => {
       {/* Hero Section */}
       <div
         className="relative h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: `url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-single-04.jpg')` }}
+        style={{ backgroundImage: `url('https://api.staybluo.com/property_assets/property_images/121/1751011031-img-20250626-wa0009.jpg')` }}
 
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-4">
-            Double Room
+            3 BHK Safdarjung Enclave
           </h1>
         </div>
 
@@ -189,7 +189,7 @@ const HotelRoomPage = () => {
                   <Users className="w-8 h-8 text-teal-700" />
                   <div className="text-lg">
                     <span className="text-gray-600">Capacity:</span>
-                    <span className="text-teal-700 ml-2 font-medium">2-6 persons</span>
+                    <span className="text-teal-700 ml-2 font-medium">6 persons</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -203,10 +203,10 @@ const HotelRoomPage = () => {
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Our spacious Double Room is ideal for couples or two guests traveling together, offering a perfect balance of comfort and functionality. Thoughtfully designed with elegant decor and ambient lighting, it provides a relaxing space to unwind after a busy day.
+                  Our spacious 3 BHK is ideal for couples or two guests traveling together, offering a perfect balance of comfort and functionality. Thoughtfully designed with elegant decor and ambient lighting, it provides a relaxing space to unwind after a busy day.
                 </p>
                 <p>
-                  The room features a cozy double bed or two twin beds (subject to availability), high-speed Wi-Fi, a flat-screen TV, a dedicated workspace, and a private en-suite bathroom with premium toiletries. Whether you're visiting for leisure or business, the Double Room ensures a pleasant and restful stay.
+                  The room features a cozy double bed or two twin beds (subject to availability), high-speed Wi-Fi, a flat-screen TV, a dedicated workspace, and a private en-suite bathroom with premium toiletries. Whether you're visiting for leisure or business, the 3 BHK ensures a pleasant and restful stay.
                 </p>
 
 
@@ -219,7 +219,7 @@ const HotelRoomPage = () => {
               <div className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <AboutVideo />
               </div>
-              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our Double Room</p>
+              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our 3 BHK </p>
             </div>
 
             {/* Amenities */}

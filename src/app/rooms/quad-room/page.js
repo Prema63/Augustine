@@ -136,22 +136,22 @@ const HotelRoomPage = () => {
 
   const rooms = [
     {
-      name: "Single Room",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/room-gallery-01-433x397.jpg",
+      name: "Modern 1 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/151/1681386271-1.jpg",
       price: "$119",
       capacity: "1-4 persons",
       size: "68m²",
     },
     {
-      name: "Queen",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/room-gallery-05-433x397.jpg",
+      name: "Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/166/1718098012-Photo 08-06-24, 11 13 22 AM.jpg",
       price: "$94",
       capacity: "2-4 persons",
       size: "60m²",
     },
     {
-      name: "Sunny Place",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img07-433x397.jpg",
+      name: "3 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/167/1671517345-DROPBOX 1.jpeg",
       price: "$136",
       capacity: "2-5 persons",
       size: "54m²",
@@ -163,13 +163,13 @@ const HotelRoomPage = () => {
       {/* Hero Section */}
       <div
         className="relative h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: `url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-single-06.jpg')` }}
+        style={{ backgroundImage: `url('https://api.staybluo.com/property_assets/property_images/149/1735638495-6.jpeg')` }}
 
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-4">
-            Quad Room
+            Classic Studio Green Park
           </h1>
         </div>
 
@@ -189,7 +189,7 @@ const HotelRoomPage = () => {
                   <Users className="w-8 h-8 text-teal-700" />
                   <div className="text-lg">
                     <span className="text-gray-600">Capacity:</span>
-                    <span className="text-teal-700 ml-2 font-medium">3-8 persons</span>
+                    <span className="text-teal-700 ml-2 font-medium">2 persons</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -203,10 +203,10 @@ const HotelRoomPage = () => {
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Perfect for families or small groups, our Quad Room is thoughtfully designed to accommodate up to four guests with ease and comfort. Whether you're planning a quick getaway or a longer stay, this spacious room offers the ideal setting for shared experiences.
+                  Perfect for families or small groups, our  Classic Studio  is thoughtfully designed to accommodate up to four guests with ease and comfort. Whether you're planning a quick getaway or a longer stay, this spacious room offers the ideal setting for shared experiences.
                 </p>
                 <p>
-                  The room features flexible bedding arrangements, including two double beds or four single beds (subject to availability), complemented by amenities such as high-speed Wi-Fi, a flat-screen TV, a dedicated workspace, and a private en-suite bathroom with essential toiletries. The Quad Room blends comfort, practicality, and value—making it an excellent choice for group travel.
+                  The room features flexible bedding arrangements, including two double beds or four single beds (subject to availability), complemented by amenities such as high-speed Wi-Fi, a flat-screen TV, a dedicated workspace, and a private en-suite bathroom with essential toiletries. The  Classic Studio  blends comfort, practicality, and value—making it an excellent choice for group travel.
                 </p>
               </div>
             </div>
@@ -217,7 +217,7 @@ const HotelRoomPage = () => {
               <div className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <AboutVideo />
               </div>
-              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our quad Room</p>
+              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our  Classic Studio </p>
             </div>
 
             {/* Amenities */}

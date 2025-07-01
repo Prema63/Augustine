@@ -6,8 +6,8 @@ import { useRouter } from 'next/navigation';
 
 const SingleRoom = () => {
   const images = [
-    'https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img08.jpg',
-    'https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/room-gallery-13.jpg'
+    'https://api.staybluo.com/property_assets/property_images/120/1722597239-16.jpeg',
+    'https://api.staybluo.com/property_assets/property_images/120/1722599559-1.jpeg'
   ];
 
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -113,10 +113,10 @@ const SingleRoom = () => {
 
               {/* Room Title */}
               <div className="space-y-2 text-center sm:text-left">
-                <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-light text-gray-900 
+                <h1 className="text-2xl sm:text-3xl md:text-3xl lg:text-4xl font-light text-gray-900 
                              hover:text-emerald-700 transition-colors duration-300 cursor-pointer
                              tracking-tight leading-tight">
-                  Single Room
+                 1BHK Defence Colony
                 </h1>
                 <div className="w-12 sm:w-16 h-0.5 bg-emerald-600 transition-all duration-300 hover:w-20 sm:hover:w-24 mx-auto sm:mx-0"></div>
               </div>
@@ -127,7 +127,7 @@ const SingleRoom = () => {
                               py-3 sm:py-0 px-4 sm:px-0 bg-gray-50 sm:bg-transparent rounded-lg sm:rounded-none
                               border-b border-gray-200 sm:border-none">
                   <span className="text-gray-600 font-medium text-sm sm:text-base">Capacity</span>
-                  <span className="text-emerald-700 font-bold text-sm sm:text-lg tracking-wide">1-4 PERSONS</span>
+                  <span className="text-emerald-700 font-bold text-sm sm:text-lg tracking-wide">2 </span>
                 </div>
 
                 <div className="flex sm:flex-col items-center sm:items-start justify-between sm:justify-start 

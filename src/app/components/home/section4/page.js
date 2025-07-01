@@ -46,7 +46,7 @@ const Section4 = () => {
                   className="w-full h-72 sm:h-96 lg:h-[450px] bg-cover bg-center transition-transform duration-700 group-hover:scale-110"
                   style={{
                     backgroundImage:
-                      "url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/12/Room-single-17-840x750.jpg')",
+                      "url('https://api.staybluo.com/property_assets/property_images/395/1681285506-1.jpg')",
                   }}
                 ></div>
                 {/* Gradient overlay */}
@@ -118,7 +118,6 @@ const Section4 = () => {
                   {/* Button */}
                   <div className="pt-4">
                     <a
-                      href="https://augustine.qodeinteractive.com/rooms/outline-list/"
                       target="_self"
                       className="inline-block border border-gray-800 text-gray-800 px-8 py-3 text-base sm:text-lg font-medium rounded hover:bg-[#0b6354] hover:text-white transition-all duration-300 hover:border-[#0b6354] hover:shadow-lg transform hover:-translate-y-0.5"
                     >

@@ -136,22 +136,22 @@ const HotelRoomPage = () => {
 
   const rooms = [
     {
-      name: "Forest Retreat",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img07-433x397.jpg",
+      name: "2 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/148/1717499237-Photo 27-03-24, 6 17 42 PM (5).jpg",
       price: "$136",
       capacity: "2-5 persons",
       size: "54m²",
     },
     {
-      name: "Cabana",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img19-433x397.jpg",
+      name: "Classic Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/149/1735638563-8.jpeg",
       price: "$89",
       capacity: "2-4 persons",
       size: "63m²",
     },
     {
-      name: "Superior Suite",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img02-433x397.jpg",
+      name: "Modern 1 BHK",
+      image: "https://api.staybluo.com/property_assets/property_images/151/1681386271-1.jpg",
       price: "$107",
       capacity: "4-6 persons",
       size: "107m²",
@@ -163,13 +163,13 @@ const HotelRoomPage = () => {
       {/* Hero Section */}
       <div
         className="relative h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: `url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-single-05.jpg')` }}
+        style={{ backgroundImage: `url('https://api.staybluo.com/property_assets/property_images/128/1718706501-7.jpeg')` }}
 
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-4">
-            Triple Room
+            Modern 2 BHK
           </h1>
         </div>
 
@@ -203,10 +203,10 @@ const HotelRoomPage = () => {
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Designed with small groups and families in mind, our Triple Room comfortably accommodates up to three guests. The room combines modern style with functional space, making it ideal for both short visits and extended stays.
+                  Designed with small groups and families in mind, our 2 BHK comfortably accommodates up to three guests. The room combines modern style with functional space, making it ideal for both short visits and extended stays.
                 </p>
                 <p>
-                  It features a combination of one double bed and one single bed, or three single beds (based on availability), along with amenities such as high-speed Wi-Fi, a flat-screen TV, a work desk, and a private en-suite bathroom stocked with essential toiletries. The Triple Room offers the perfect blend of comfort, convenience, and value for your group travel needs.
+                  It features a combination of one double bed and one single bed, or three single beds (based on availability), along with amenities such as high-speed Wi-Fi, a flat-screen TV, a work desk, and a private en-suite bathroom stocked with essential toiletries. The 2 BHK offers the perfect blend of comfort, convenience, and value for your group travel needs.
                 </p>
 
 
@@ -220,7 +220,7 @@ const HotelRoomPage = () => {
               <div className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <AboutVideo />
               </div>
-              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our triple Room</p>
+              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our 2 BHK </p>
             </div>
 
             {/* Amenities */}

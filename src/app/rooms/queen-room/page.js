@@ -136,22 +136,22 @@ const HotelRoomPage = () => {
 
   const rooms = [
     {
-      name: "Twin Room",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img13-433x397.jpg",
+      name: "Cozy Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/306/1628754429-Photo 10-08-21, 5 56 10 PM.jpg",
       price: "$59",
       capacity: "1-2 persons",
       size: "42m²",
     },
     {
-      name: "Mini Suit",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img14-433x397.jpg",
+      name: "Classic Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/314/1672895215-photo 30-12-22, 4 30 26 pm.jpg",
       price: "$49",
       capacity: "1-3 persons",
       size: "34m²",
     },
     {
-      name: "Cabana",
-      image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img19-433x397.jpg",
+      name: "Modern Studio",
+      image: "https://api.staybluo.com/property_assets/property_images/330/1649676788-Photo 08-04-22, 4 00 40 PM (4).jpg",
       price: "$89",
       capacity: "2-4 persons",
       size: "63m²",
@@ -163,13 +163,13 @@ const HotelRoomPage = () => {
       {/* Hero Section */}
       <div
         className="relative h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
-        style={{ backgroundImage: `url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-single-07.jpg')` }}
+        style={{ backgroundImage: `url('https://api.staybluo.com/property_assets/property_images/316/1676870899-3.jpg')` }}
 
       >
         <div className="absolute inset-0 bg-black/30"></div>
         <div className="relative z-10 text-center">
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-4">
-            Queen Room
+           Superior 2 BHK Green Park
           </h1>
         </div>
 
@@ -189,7 +189,7 @@ const HotelRoomPage = () => {
                   <Users className="w-8 h-8 text-teal-700" />
                   <div className="text-lg">
                     <span className="text-gray-600">Capacity:</span>
-                    <span className="text-teal-700 ml-2 font-medium">2-4 persons</span>
+                    <span className="text-teal-700 ml-2 font-medium">4 persons</span>
                   </div>
                 </div>
                 <div className="flex items-center gap-4">
@@ -203,10 +203,10 @@ const HotelRoomPage = () => {
 
               <div className="space-y-6 text-gray-600 leading-relaxed">
                 <p>
-                  Ideal for solo travelers, couples, or business guests, our Queen Room offers a stylish and serene space designed for both relaxation and productivity. With its warm ambiance and thoughtful layout, it serves as a comfortable retreat after a busy day.
+                  Ideal for solo travelers, couples, or business guests, our  Superior 2 BHK offers a stylish and serene space designed for both relaxation and productivity. With its warm ambiance and thoughtful layout, it serves as a comfortable retreat after a busy day.
                 </p>
                 <p>
-                  The room features a plush queen-size bed, high-speed Wi-Fi, a flat-screen TV, a dedicated work desk, and a private en-suite bathroom stocked with essential toiletries. Whether you're visiting for business or leisure, the Queen Room provides the perfect balance of comfort, convenience, and elegance.
+                  The room features a plush queen-size bed, high-speed Wi-Fi, a flat-screen TV, a dedicated work desk, and a private en-suite bathroom stocked with essential toiletries. Whether you're visiting for business or leisure, the  Superior 2 BHK provides the perfect balance of comfort, convenience, and elegance.
                 </p>
 
               </div>
@@ -218,7 +218,7 @@ const HotelRoomPage = () => {
               <div className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                 <AboutVideo />
               </div>
-              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our queen Room</p>
+              <p className="text-center text-gray-600 mt-4">Take a virtual tour of our Superior 2 BHK</p>
             </div>
 
             {/* Amenities */}

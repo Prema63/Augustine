@@ -136,22 +136,22 @@ const HotelRoomPage = () => {
 
     const rooms = [
         {
-            name: "Double Room",
-            image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/room-gallery-02-433x397.jpg",
+            name: "3 BHK",
+            image: "https://api.staybluo.com/property_assets/property_images/121/1751010968-img-20250626-wa0074.jpg",
             price: "$89",
             capacity: "2-6 persons",
             size: "70m²",
         },
         {
-            name: "Superior Suite",
-            image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-img02-433x397.jpg",
+            name: "Modern 2 BHK",
+            image: "https://api.staybluo.com/property_assets/property_images/128/1718706829-20.jpeg",
             price: "$119",
             capacity: "4-6 persons",
             size: "107m²",
         },
         {
-            name: "Presidential Suite",
-            image: "https://augustine.qodeinteractive.com/wp-content/uploads/2020/12/Room-img21-433x397.jpg",
+            name: "3 BHK",
+            image: "https://api.staybluo.com/property_assets/property_images/142/1725452752-Photo 31-08-24, 9 37 04 AM (2).jpg",
             price: "$99",
             capacity: "1-4 persons",
             size: "60m²",
@@ -163,12 +163,12 @@ const HotelRoomPage = () => {
             {/* Hero Section */}
             <div
                 className="relative h-[60vh] lg:h-[70vh] bg-cover bg-center flex items-center justify-center"
-                style={{ backgroundImage: `url('https://augustine.qodeinteractive.com/wp-content/uploads/2020/11/Room-single-02.jpg')` }}
+                style={{ backgroundImage: `url('https://api.staybluo.com/property_assets/property_images/120/1722599559-1.jpeg')` }}
             >
                 <div className="absolute inset-0 bg-black/30"></div>
                 <div className="relative z-10 text-center">
                     <h1 className="text-4xl md:text-6xl lg:text-7xl font-serif text-white mb-4">
-                        Single Room
+                    1 BHK Defence Colony
                     </h1>
                 </div>
 
@@ -188,7 +188,7 @@ const HotelRoomPage = () => {
                                     <Users className="w-8 h-8 text-teal-700" />
                                     <div className="text-lg">
                                         <span className="text-gray-600">Capacity:</span>
-                                        <span className="text-teal-700 ml-2 font-medium">1–4 persons</span>
+                                        <span className="text-teal-700 ml-2 font-medium">2 persons</span>
                                     </div>
                                 </div>
                                 <div className="flex items-center gap-4">
@@ -202,10 +202,10 @@ const HotelRoomPage = () => {
 
                             <div className="space-y-6 text-gray-600 leading-relaxed">
                                 <p>
-                                    Experience comfort and privacy in our well-appointed Single Room, perfect for solo travelers or business guests. Each room is designed with warm tones and modern decor to create a cozy and welcoming atmosphere.
+                                    Experience comfort and privacy in our well-appointed 1 BHK , perfect for solo travelers or business guests. Each room is designed with warm tones and modern decor to create a cozy and welcoming atmosphere.
                                 </p>
                                 <p>
-                                    Enjoy a restful night's sleep on a plush single bed, along with convenient amenities including high-speed Wi-Fi, a flat-screen TV, a work desk, and an en-suite bathroom with complimentary toiletries. Whether you're here for a short stay or an extended visit, our Single Room offers everything you need for a relaxing and productive experience.
+                                    Enjoy a restful night's sleep on a plush single bed, along with convenient amenities including high-speed Wi-Fi, a flat-screen TV, a work desk, and an en-suite bathroom with complimentary toiletries. Whether you're here for a short stay or an extended visit, our 1 BHK  offers everything you need for a relaxing and productive experience.
                                 </p>
 
                             </div>
@@ -217,7 +217,7 @@ const HotelRoomPage = () => {
                             <div className="relative w-full aspect-video bg-gray-900 rounded-lg overflow-hidden">
                                 <AboutVideo />
                             </div>
-                            <p className="text-center text-gray-600 mt-4">Take a virtual tour of our Single Room</p>
+                            <p className="text-center text-gray-600 mt-4">Take a virtual tour of our 1 BHK </p>
                         </div>
 
                         {/* Amenities */}
