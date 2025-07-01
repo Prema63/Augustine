@@ -269,8 +269,8 @@ const HotelRoomPage = () => {
               <div className="bg-white rounded-lg p-8 shadow-sm">
                 <ul className="space-y-4">
                   {[
-                    "Check-in: 3:00 PM - 9:00 PM",
-                    "Checkout: 11:00 AM",
+                    "Check-in: After 2:00 PM",
+                    "Checkout: 10:00 AM",
                     "No smoking",
                     "No pets",
                     "No parties or events"
@@ -309,9 +309,9 @@ const HotelRoomPage = () => {
             </div>
           </div>
 
-          {/* Enhanced Booking Sidebar */}
+          {/* Booking Sidebar */}
           <div className="space-y-6">
-            {/* Sticky Booking Card */}
+            {/* Booking Card */}
             <div className="sticky top-8">
               <div className=" rounded-lg  p-8 border-t-4 border-teal-700">
                 <h3 className="text-2xl font-serif">Your Reservation</h3>

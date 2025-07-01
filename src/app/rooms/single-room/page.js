@@ -268,8 +268,8 @@ const HotelRoomPage = () => {
                             <div className="bg-white rounded-lg p-8 shadow-sm">
                                 <ul className="space-y-4">
                                     {[
-                                        "Check-in: 3:00 PM - 9:00 PM",
-                                        "Checkout: 11:00 AM",
+                                        "Check-in: After 2:00 PM",
+                                        "Checkout: 10:00 AM",
                                         "No smoking",
                                         "No pets",
                                         "No parties or events"
